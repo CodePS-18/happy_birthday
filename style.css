@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #1a1a2e, #16213e);
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+/* Main container */
+.container {
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  animation: fadeIn 3s ease;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 55px;
+  color: #ff4d6d;
+  animation: glow 2s infinite alternate;
+}
+
+h2 {
+  margin-top: 10px;
+  font-weight: 300;
+  animation: slideUp 2s ease;
+}
+
+#messages {
+  margin-top: 25px;
+}
+
+.message {
+  margin-top: 12px;
+  font-size: 22px;
+  opacity: 0;
+  animation: fadeText 1.5s forwards;
+}
+
+button {
+  margin-top: 30px;
+  padding: 15px 35px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  background: #ff4d6d;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 20px #ff4d6d;
+  animation: pulse 1.5s infinite;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Heart Tree */
+#heart-tree {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 320px;
+  z-index: 1;
+}
+
+.tree-heart {
+  position: absolute;
+  font-size: 18px;
+  animation: glow 2s infinite alternate;
+}
+
+/* Floating hearts */
+.heart {
+  position: absolute;
+  color: #ff4d6d;
+  font-size: 20px;
+  animation: float 6s linear infinite;
+}
+
+/* Animations */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 8px #ff4d6d;
+  }
+
+  to {
+    text-shadow: 0 0 18px #ff99ac;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeText {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  from {
+    transform: translateY(100vh);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(-10vh);
+    opacity: 0;
+  }
+}
