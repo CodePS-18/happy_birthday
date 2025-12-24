@@ -1,21 +1,20 @@
 /* Messages */
 const lines = [
-  " Happy Birthday to you, my love 🎈",
-  "May God bless you with endless joy and smiles 💖 💓",
-  "You deserve all the happiness in the world 💕",
-  "Just saying... you're insanely pretty 😍💕",
-  "Just saying... ..you are very pretty 💕",
-  "And completely amazing 💓",
-  "Awesome 💓",
-  " ",
+  "Happy Birthday to you, my love 🎂🎉🎈💖🥳🎊",
+  "May God bless you with endless joy and smiles 💖💓😊✨🌸🌈",
+  "You deserve all the happiness in the world 💕💫🌍🥰💝",
+  "Just saying... you're insanely pretty 😍💕✨🔥💖",
+  "Just saying... you are very pretty 💕🌸💫😍💖",
+  "And completely amazing 💓✨🌟💖🥰",
+  "Awesome 💓🔥✨😎💖",
+  " 💖✨🎀 ",
 
-  "You're one of the closest and most special people",
-  "in my life ✨✨",
-  "Love you more than 3000 😘💞😜",
-  "😘",
-  "😘😘",
-  "Love uhhh so much !!!",
-  "Tumhara Sukoon 🤞🤞💖💕😘"
+  "You're one of the closest and most special people in my life 💝🤍✨",
+  "Love you more than 3000 😘💞😜💖💫🔥",
+  "😘💋💖",
+  "😘😘💋💋💞",
+  "Love uhhh so much !!! 💖💓😍🥰🔥",
+  "Tumhara Sukoon 🤞🤞💖💕😘✨🌸"
  ];
 
 let index = 0;
@@ -73,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
 
 
 
