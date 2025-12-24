@@ -1,6 +1,6 @@
 /* Messages */
 const lines = [
-  "Happy Birthday to you, my love 🎂🎉🎈💖🥳🎊",
+  "Happy Birthday to you, dear Sapna Gupta 🎂🎉🎈💖🥳🎊",
   "May God bless you with endless joy and smiles 💖💓😊✨🌸🌈",
   "You deserve all the happiness in the world 💕💫🌍🥰💝",
   "Just saying... You are very pretty 💕🌸💫😍💖",
@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
 
 
 
