@@ -20,6 +20,12 @@ function startMessages() {
   const btn = document.getElementById("touchBtn");
   btn.style.display = "none";
 
+  const audio = document.getElementById('bg-music');
+  if (audio.paused) {
+    audio.play();
+  }
+
+
   if (index < lines.length) {
     const div = document.createElement("div");
     div.className = "message";
@@ -64,4 +70,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
 
