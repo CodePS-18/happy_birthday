@@ -3,8 +3,7 @@ const lines = [
   "Happy Birthday to you, my love 🎂🎉🎈💖🥳🎊",
   "May God bless you with endless joy and smiles 💖💓😊✨🌸🌈",
   "You deserve all the happiness in the world 💕💫🌍🥰💝",
-  "Just saying... you're insanely pretty 😍💕✨🔥💖",
-  "Just saying... you are very pretty 💕🌸💫😍💖",
+  "Just saying... You are very pretty 💕🌸💫😍💖",
   "And completely amazing 💓✨🌟💖🥰",
   "Awesome 💓🔥✨😎💖",
   " 💖✨🎀 ",
@@ -72,6 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
 
 
 
